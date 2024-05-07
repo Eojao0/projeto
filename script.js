@@ -1,4 +1,4 @@
-function toggleMode() {
+function toggleMode(){
     const html = document.documentElement
     html.classList.toggle("light")
 
@@ -6,12 +6,10 @@ function toggleMode() {
     
     if (html.classList.contains("light")) {
 
-       img.setAttribute("src", "./assets/avatars.png")
+       img.setAttribute("src","./assets/avatars.png")
         
     } else {
             img.setAttribute("src","./assets/avatar.png")
         }
-
-    
     }
 
